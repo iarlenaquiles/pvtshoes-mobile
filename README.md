@@ -1,6 +1,6 @@
 # :computer: Aplicação Mobile em React Native com Redux Saga
 
-![Cena 01](image-01.jpeg)
+![Cena 01](image-01.jpeg){:height="100" width="300"}
 
 ![Cena 01](image-02.jpeg)
 
