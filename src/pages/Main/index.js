@@ -35,7 +35,7 @@ export default function Main() {
 
   useEffect(() => {
     async function getProducts() {
-      setLoading((loading = true));
+      setLoading(true);
       const resp = await api.get('/products');
 
       const data = resp.data.map(product => ({
@@ -44,7 +44,8 @@ export default function Main() {
       }));
 
       setProducts(data);
-      setLoading((loading = false));
+
+      setLoading(false);
     }
     getProducts();
   }, []);
